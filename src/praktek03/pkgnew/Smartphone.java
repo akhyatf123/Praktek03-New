@@ -2,9 +2,9 @@
 package praktek03.pkgnew;
 
 public class Smartphone {
-    String jenis;
-    String merk;
-    double harga;
+    private String jenis;
+    private String merk;
+    private double harga;
     
 void cetakInfo(){
     System.out.println("Jenis \t: "+jenis+"\n"+
